@@ -22,7 +22,7 @@ function displaydata(items){
         const title = document.createElement('h4')
         title.textContent = item.title
         const para = document.createElement('p')
-        para.textContent = "Price:"+item.price
+        para.textContent = "Price: $"+item.price
         const btn = document.createElement('button')
         btn.id = "addcart"
         btn.textContent = "Add To Cart"
@@ -34,11 +34,7 @@ function displaydata(items){
 
 }
 
-document.getElementById('left').addEventListener('click', function(e)
-{
-    console.log(e.target.textContent)
-    getCategoryData(e.target.textContent)
-})
+
 document.getElementById("dropdown-content").addEventListener('click', function(e){
     console.log(e.target.textContent)
     getCategoryData(e.target.textContent)

@@ -83,7 +83,7 @@ function addToCart(i){
 
 
 }
-toggle.onclick = function(){
+toggle.addEventListener("mouseover",function(){
     menu.classList.toggle("active")
 
-}
+})

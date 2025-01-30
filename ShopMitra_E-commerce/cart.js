@@ -6,6 +6,7 @@ function displayData ()
 
 {
     mainDiv.textContent=""
+    totalprice = 0;
     items.forEach((item,i) =>
     {
         const div = document.createElement("div")
@@ -24,12 +25,12 @@ function displayData ()
         btn.onclick = function (){
             let con = confirm("Are You Sure Remove This Item")
             if (con){
-                items.splice(i,1)
-                totalprice-=totalprice-item.price
+                items.splice(item,1)
+                totalprice=totalprice-item.price
                 localStorage.setItem('CartItems', JSON.stringify(items))
                 displayData()
             }
-            totalprice=totalprice
+            totalprice = totalprice
             
         }
         totalprice = totalprice
@@ -49,7 +50,7 @@ function displayData ()
         const h2 = document.createElement('h2')
         h2.textContent = "Total Price"
         const p = document.createElement('p')
-        p.textContent = 'Price $: '+totalprice.toFixed(2)
+        p.textContent = 'Price: $'+totalprice.toFixed(2)
         div2.append(h2,p)
         mainDiv.appendChild(div2)
 

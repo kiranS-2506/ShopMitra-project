@@ -234,6 +234,9 @@ footer>center>h4{
     display: block;
     
     }
+    body{
+        width:100%;
+    }
 
 
 
@@ -291,6 +294,21 @@ footer>center>h4{
     display: block;
     
     }
+    body{
+        width:100%;
+    }
+    header{
+        width: 100vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 10px 20px;
+        font-size: 30px;
+    
+    }
+    
     main{
         max-width: 100vw;
         display: flex;

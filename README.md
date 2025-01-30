@@ -41,13 +41,6 @@ To run this project locally, follow these steps:
 ### Cart Page
 ![Cart Page Screenshot](./images/Screenshot%201%20(2).png)
 
-## Future Improvements
-
-- **User Authentication**: Implement user sign-in and registration for personalized shopping.
-- **Payment Integration**: Add a payment gateway to enable purchases directly on the platform.
-- **Search Functionality**: Add a search bar to help users find specific products.
-- **Error Handling**: Enhance error handling and loading indicators when fetching data from the API.
-
 ## Contributing
 
 1. Fork this repository.

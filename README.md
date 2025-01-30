@@ -22,17 +22,10 @@ ShopMitra is a fully responsive e-commerce platform designed for browsing and pu
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+- Clone the repository:
     ```bash
     git clone https://github.com/kiranS-2506/ShopMitra-project
     ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd shopmitra
-    ```
-
-3. Open the `index.html` file in your browser to view the website.
 
 ## How It Works
 
@@ -47,13 +40,6 @@ To run this project locally, follow these steps:
 
 ### Cart Page
 ![Cart Page Screenshot](./images/Screenshot%201%20(2).png)
-
-## Future Improvements
-
-- **User Authentication**: Implement user sign-in and registration for personalized shopping.
-- **Payment Integration**: Add a payment gateway to enable purchases directly on the platform.
-- **Search Functionality**: Add a search bar to help users find specific products.
-- **Error Handling**: Enhance error handling and loading indicators when fetching data from the API.
 
 ## Contributing
 

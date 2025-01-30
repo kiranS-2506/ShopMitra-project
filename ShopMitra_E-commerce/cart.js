@@ -25,7 +25,7 @@ function displayData ()
         btn.onclick = function (){
             let con = confirm("Are You Sure Remove This Item")
             if (con){
-                items.splice(item,1)
+                items.splice(i,1)
                 totalprice=totalprice-item.price
                 localStorage.setItem('CartItems', JSON.stringify(items))
                 displayData()

@@ -185,93 +185,60 @@ footer>center>h4{
 
 
 }
-@media (min-width:899px) and (max-width:1279px) {
+@media (min-width:768px) and (max-width:1279px) {
 
     main{
         max-width: 100vw;
         display: flex;
         justify-content: center;
+        align-items: center;
         #right{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(3,1fr);
-     
-    }
- }
-}
-@media (min-width:481px) and (max-width:899px){
-    .toggle{
-        display: block;
-        position: absolute;
-        top:38px;
-    }
-    #cart{
-        position: relative;
-        right: 20px;
-        bottom: 3px;
-    }
-    header{
-        display: flex;
-        align-items: baseline;
-
-    }
-
-    nav{
-        display: none;
-        width:100%;
-        padding-top: 20px;
-
-        
-    }
-    ul{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-    }
-    nav.active{
-    display: flex;
-    display: block;
-    
-    }
-    body{
-        width:100%;
-    }
-
-
-
-
-
-
-
-
-    main{
-        max-width: 100vw;
-        display: flex;
-        justify-content: center;
-        #right{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
             grid-template-rows: repeat(5,1fr);
+            row-gap: 5px;
      
+    }}
+
+    .product{
+        width:250px;
+
+
     }
 
+    .product>img{
+        width:100px;
+        height: 100px;
+
+    }
+    #footerdiv>div>h4{
+        color: #ddd;
+        font-size: 1rem;
+    }
+    #footerdiv>div>a{
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+
+ 
 }
-}
-@media (max-width:480px){
+
+@media (min-width:481px) and (max-width:768px){
     .toggle{
         display: block;
         position: absolute;
-        top:38px;
+        top:20px;
     }
     #cart{
         position: relative;
         right: 20px;
-        bottom: 3px;
+       
     }
     header{
         display: flex;
         align-items: baseline;
+        width:100%;
 
     }
 
@@ -289,13 +256,14 @@ footer>center>h4{
         justify-content: center;
 
     }
+    ul>li{
+        font-size: 15px;
+        text-align: center;
+    }
     nav.active{
     display: flex;
     display: block;
     
-    }
-    body{
-        width:100%;
     }
     header{
         width: 100vw;
@@ -308,16 +276,116 @@ footer>center>h4{
         font-size: 30px;
     
     }
+    footer{
+        display: none;
+    }
+
     
     main{
         max-width: 100vw;
         display: flex;
         justify-content: center;
+        align-items: center;
+        #right{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5,1fr);
+            row-gap: 5px;
+     
+    }
+    .product{
+        width:300px;
+
+
+    }
+
+    .product>img{
+        width:100px;
+        height: 100px;
+
+    }
+
+ }
+}
+@media (min-width:320px) and (max-width:480px){
+    .toggle{
+        display: block;
+        position: absolute;
+        top:20px;
+    }
+    #cart{
+        position: relative;
+        right: 20px;
+       
+    }
+    header{
+        display: flex;
+        align-items: baseline;
+        width:100%;
+
+    }
+
+    nav{
+        display: none;
+        width:100%;
+        padding-top: 20px;
+        background-color:#16161a00;
+
+        
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    ul>li{
+        font-size: 15px;
+        text-align: center;
+    }
+    nav.active{
+    display: flex;
+    display: block;
+    
+    }
+    header{
+        width: 100vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 10px 20px;
+        font-size: 30px;
+    
+    }
+    footer{
+        display: none;
+    }
+
+    
+    main{
+        max-width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         #right{
             display: grid;
             grid-template-columns: repeat(1,1fr);
             grid-template-rows: repeat(5,1fr);
+            row-gap: 5px;
      
+    }
+    .product{
+        width:300px;
+
+
+    }
+
+    .product>img{
+        width:100px;
+        height: 100px;
+
     }
 
  }

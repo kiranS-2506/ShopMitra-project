@@ -49,7 +49,7 @@ function displayData ()
         const h2 = document.createElement('h2')
         h2.textContent = "Total Price"
         const p = document.createElement('p')
-        p.textContent = 'Price $: '+totalprice.toFixed(2)
+        p.textContent = 'Price: $'+totalprice.toFixed(2)
         div2.append(h2,p)
         mainDiv.appendChild(div2)
 

@@ -1,4 +1,6 @@
 const rightdiv = document.getElementById("right")
+let toggle = document.querySelector(".toggle")
+let menu = document.querySelector("nav")
 let CartItems=[]
 
 
@@ -51,6 +53,10 @@ document.getElementById("dropdown-content4").addEventListener('click', function(
     console.log(e.target.textContent)
     getCategoryData(e.target.textContent)
 })
+document.getElementById("dropdown-content5").addEventListener('click', function(e){
+    console.log(e.target.textContent)
+    getCategoryData(e.target.textContent)
+})
 
 
 async function getCategoryData(c){
@@ -69,10 +75,15 @@ async function getCategoryData(c){
 
 function addToCart(i){
     CartItems.push(i)
-    console.log(CartItems)
-    localStorage.setItem('cartItems', JSON.stringify(CartItems))
+    localStorage.setItem('CartItems', JSON.stringify(CartItems))
     document.getElementById('count').textContent = CartItems.length
 
 
+
+
+
+}
+toggle.onclick = function(){
+    menu.classList.toggle("active")
 
 }

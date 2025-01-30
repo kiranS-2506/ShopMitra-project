@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopMitra - A platform for indian products</title>
     <link rel="shortcut icon" href="/images/shopping.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,9 @@
         <div id="logo">
             <img src="/images/shopmitralogo.png" alt="logo">
         </div>
-        <nav>
+       
+
+        <nav id="menu">
             <ul>
                 <li class="dropdown">
                     <a href="#">Fashion</a>
@@ -57,15 +60,26 @@
                         <button class="category-button" value="furniture">furniture</button>
                     </div>
                 </li>
+                <li class="dropdown">
+                    <a href="#">Sports & vehicles</a>
+                    <div id="dropdown-content5" class="drop-con">
+                        <button class="category-button" value="sports-accessories">sports-accessories</button>
+                        <button class="category-button" value="motorcycle">motorcycle</button>
+                        <button class="category-button" value="vehicle">vehicle</button>
+                    </div>
+                </li>
 
             </ul>
 
 
         </nav>
+        <i class="fa-solid fa-bars toggle" id="tg"></i>
         <div id="cart">
-            <span id="count">0</span>
-            <a href="./cart.html"><img src="/images/cart2.svg" alt="" id="cartlogo"></a>
+            
+            <a href="./cart.html"><img src="/images/cart.svg"alt="" id="cartlogo"></a>
+            <span id="count"></span>
         </div>
+        
     </header>
     <main>
         <div id="right">
@@ -74,25 +88,28 @@
         </div>
     </main>
     <footer>
-        <center><h5>This site belongs to Kiran &copy; 2024</h5></center>
+        <center><h4>This site belongs to Kiran &copy; 2025</h4></center>
         
         <div id="footerdiv">
+            <div id="footerlogo">
+                <img src="/images/shopmitralogo.png" alt="logo" id="footerlogo">
+            </div>
             <div>
-                <h5>ShopMitra</h5>
+                <h4>ShopMitra</h4>
                 <a href="">Who We Are</a>
                 <a href="">Terms&Conditions</a>
                 <a href="">Returns & refund policy</a>
                 <a href="">Fee & Payments</a>
             </div>
             <div>
-                <h5>Help</h5>
+                <h4>Help</h4>
                 <a href="">Track Your Order</a>
                 <a href="">Frequently Asked questions</a>
                 <a href="">Returns</a>
                 <a href="">CustomerCare</a>
             </div>
             <div>
-                <h5>Shop by</h5>
+                <h4>Shop by</h4>
                 <a href="">All</a>
                 <a href="">Men&Women</a>
                 <a href="">Groceries</a>
@@ -100,7 +117,7 @@
                 <a href="">Electronics</a>
             </div>
             <div>
-                <h5>Follow Us</h5>
+                <h4>Follow Us</h4>
                 <a href="">Facebook</a>
                 <a href="">Instragram</a>
                 <a href="">Space-x</a>

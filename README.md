@@ -1,4 +1,4 @@
-# ShopMitra - E-Commerce Platform
+# ShopMitra  E-Commerce Platform
 
 ShopMitra is a fully responsive e-commerce platform designed for browsing and purchasing products across various categories such as Fashion, Electronics, Groceries, Home & Furniture, and Sports & Vehicles. Users can add products to their cart, manage their cart items, and view product details.
 
